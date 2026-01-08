@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .btn{
     background-color: #469165;
     border: none;
@@ -39,6 +44,7 @@
 }
 .img-text h1 {
     font-size: 72px;
+    font-weight: 700;
     line-height: 84px;
     margin-bottom: 16px;
 }
@@ -73,4 +79,57 @@
     color: #FFFFFF;
     line-height: 24px;
     margin-bottom: 25px;
+}
+
+.motive{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.motive h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.motive p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+    color: #627382;
+}
+
+.line{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 0px 100px;
+}
+.card{
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.091);
+    max-width: 322px;
+    max-height: 300px;
+    border-radius: 10px;
+    padding: 70px 24px;
+    background-color:#FFFFFF;
+    text-align: center;   
+}
+.card img{
+    border-radius: 50%;
+    background-color: #f95555;
+    width :60px;
+    height:60px;
+    margin-bottom: 16px;
+}
+.card h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #001931;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
 }
