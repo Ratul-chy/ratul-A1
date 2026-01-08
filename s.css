@@ -133,3 +133,69 @@
     color: #627382;
     margin-top: 16px;
 }
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 120px;
+}
+.list{
+    text-align: left;
+}
+.list h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #001931;
+}
+.list p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+.list ul{
+    list-style: url(assets/CheckCircle.png);
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;   
+}
+#ap{
+    color: #469165;
+}
+
+.challange{
+    background-color: #F7F6F2;
+    padding: 0px 100px;
+}
+.challangetext{
+    text-align: center;
+    padding: 80px 40px;
+}
+.challangetext h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.challangetext p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.challangetext #ch2{
+    color: #627382;
+    margin-top: 16px;
+}
+
+.footer{
+    background-color: #001931;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
