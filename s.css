@@ -169,11 +169,16 @@
 }
 #ap{
     color: #469165;
+    line-height: 20px;
+    font-size: 16px;
 }
 
 .challange{
     background-color: #F7F6F2;
     padding: 0px 100px;
+    margin-left:120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
 }
 .challangetext{
     text-align: center;
